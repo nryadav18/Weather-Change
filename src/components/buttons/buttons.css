@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+.but{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: fit-content;
+    width: fit-content;
+    border: 3px solid white;
+    border-radius: 10px;
+    column-gap: 25px;
+    row-gap: 20px;
+    backdrop-filter: blur(20px);
+}
+.button{
+    height: 50px;
+    width: 110px;
+    border-radius: 8px;
+    margin: 20px 5px;
+    border: 3px solid white;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-size: 22px;
+    font-family: "Protest Guerrilla", sans-serif;
+    text-shadow: 0px 0px 10px black;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-width: 550px){
+    .but{
+        column-gap: 5px;
+    }
+    .button{
+        height: 35px;
+        width: 80px;
+        font-size: 18px;
+        margin: 10px 5px;
+    }
+}
+@media only screen and (max-width: 380px){
+    .but{
+        column-gap: 5px;
+    }
+    .button{
+        height: 30px;
+        width: 60px;
+        font-size: 14px;
+        margin: 10px 5px;
+    }
+}
