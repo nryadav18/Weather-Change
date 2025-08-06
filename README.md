@@ -36,5 +36,5 @@ cd weather-change
 
 ### Running the Frontend
 ```bash
-Open using LIVE SERVER
+npm run dev
 ```
